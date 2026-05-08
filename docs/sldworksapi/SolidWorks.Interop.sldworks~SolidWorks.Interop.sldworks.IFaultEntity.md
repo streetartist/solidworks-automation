@@ -1,0 +1,51 @@
+# IFaultEntity Interface
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity`
+
+Identifies entities with faults and types of faults.
+Identifies entities with faults and types of faults.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Public Interface IFaultEntity 
+```
+
+```
+
+Dim instance As IFaultEntity
+```
+
+```
+
+public interface IFaultEntity 
+```
+
+```
+
+public interface class IFaultEntity 
+```
+
+Example
+
+[Check Bodies for Faults (VBA)](Check_Bodies_for_Faults_Example_VB.htm)  
+[Get and Fill Gaps in Body (C#)](Get_and_Fill_Gaps_in_Body_Example_CSharp.htm)  
+[Get and Fill Gaps in Body (VB.NET)](Get_and_Fill_Gaps_in_Body_Example_VBNET.htm)  
+[Get and Fill Gaps in Body (VBA)](Get_and_Fill_Gaps_in_Body_Example_VB.htm)
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IFaultEntity Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity_members.md)  
+[SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.md)

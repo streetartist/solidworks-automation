@@ -1,0 +1,63 @@
+# SketchOffsetEntities Method (IModelDoc)
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc~SketchOffsetEntities`
+
+Obsolete. Superseded by IModelDoc2::SketchOffsetEntities.
+Obsolete. Superseded by [IModelDoc2::SketchOffsetEntities](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchOffsetEntities.md).
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Sub SketchOffsetEntities( _
+   ByVal Offset As System.Double, _
+   ByVal Flip As System.Boolean _
+) 
+```
+
+```
+
+Dim instance As IModelDoc
+Dim Offset As System.Double
+Dim Flip As System.Boolean
+ 
+instance.SketchOffsetEntities(Offset, Flip)
+```
+
+```
+
+void SketchOffsetEntities( 
+   System.double Offset,
+   System.bool Flip
+)
+```
+
+```
+
+void SketchOffsetEntities( 
+   System.double Offset,
+   System.bool Flip
+) 
+```
+
+#### Parameters
+
+*Offset*
+
+*Flip*
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.md)  
+[IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.md)

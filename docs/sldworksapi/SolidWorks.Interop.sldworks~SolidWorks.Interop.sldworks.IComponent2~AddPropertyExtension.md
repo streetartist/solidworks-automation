@@ -1,0 +1,77 @@
+# AddPropertyExtension Method (IComponent2)
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~AddPropertyExtension`
+
+Adds a property extension to this component.
+Adds a property extension to this component.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Function AddPropertyExtension( _
+   ByVal PropertyExtension As System.Object _
+) As System.Integer
+```
+
+```
+
+Dim instance As IComponent2
+Dim PropertyExtension As System.Object
+Dim value As System.Integer
+ 
+value = instance.AddPropertyExtension(PropertyExtension)
+```
+
+```
+
+System.int AddPropertyExtension( 
+   System.object PropertyExtension
+)
+```
+
+```
+
+System.int AddPropertyExtension( 
+   System.Object^ PropertyExtension
+) 
+```
+
+#### Parameters
+
+*PropertyExtension*
+:   Value of the property extension to add to the component
+
+#### Return Value
+
+1 if the property extension is added to the component, -1 if not
+
+Remarks
+
+This method does not support adding multiple property extensions to the same component.
+
+To use this method:
+
+1. Declare the variable.
+2. Assign the variable a value: float, integer, or string.
+3. Call this method to add the value to the component.
+
+**NOTE**: SOLIDWORKS recommends that you use the [IAttribute](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute.md), [IAttributeDef](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttributeDef.md), and [IParameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.md) interfaces instead of this method. These interfaces provide more flexibility.
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.md)  
+[IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.md)  
+[IComponent2::GetPropertyExtension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetPropertyExtension.md)  
+[IComponent2::ResetPropertyExtension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~ResetPropertyExtension.md)

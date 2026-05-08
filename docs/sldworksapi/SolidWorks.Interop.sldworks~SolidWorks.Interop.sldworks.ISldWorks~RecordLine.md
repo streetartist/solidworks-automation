@@ -1,0 +1,88 @@
+# RecordLine Method
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RecordLine`
+
+Adds a line of code to a VBA macro and the SOLIDWORKS journal file.
+Adds a line of code to a VBA macro and the SOLIDWORKS journal file.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Function RecordLine( _
+   ByVal Text As System.String _
+) As System.Boolean
+```
+
+```
+
+Dim instance As ISldWorks
+Dim Text As System.String
+Dim value As System.Boolean
+ 
+value = instance.RecordLine(Text)
+```
+
+```
+
+System.bool RecordLine( 
+   System.string Text
+)
+```
+
+```
+
+System.bool RecordLine( 
+   System.String^ Text
+) 
+```
+
+#### Parameters
+
+*Text*
+:   Text to write to a VBA macro and the SOLIDWORKS journal file
+
+#### Return Value
+
+True if successful, false if not
+
+Remarks
+
+This method is useful if you want your add-in application to record and play back SOLIDWORKS macros or write to the SOLIDWORKS journal file.
+
+For example, if your add-in application allows end users to change the material specifications associated with a model, then end users may want to be able to record and play back the operation in a macro. This might allow them to easily assign material specifications to a large number of files by playing back the macro.
+
+Text is only written to macros if macro recording is enabled when the method is called ([ISldWorks::Run Command](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunCommand.md) swCommands\_RecordPauseMacro ""). Users are prompted to select the type of macros to create when recording is stopped (ISldWorks::Run Command swCommands\_StopMacro "").
+
+For your add-in functionality to be recorded reliably in all macro formats, you should call all three macro-recording methods:
+
+- ISldWorks::RecordLine to record to a **SW VBA Macro (\*.swp)**.
+- [ISldWorks::RecordLineVBnet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RecordLineVBnet.md) to record to a **SW VSTA VB Macro (\*.vbproj)**.
+- [ISldWorks::RecordLineCSharp](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RecordLineCSharp.md) to record to a **SW VSTA C# Macro (\*.csproj)**.
+
+Exercise caution when recording lines that include string literals. String literals are parsed when the add-in application is compiled and again when the macro is compiled.
+
+Example
+
+[Record Macros (VBA)](Record_Macros_Example_VB.htm)  
+[Recor Macros (VB.NET)](Record_Macros_Example_VBNET.htm)  
+[Record Macros (C#)](Record_Macros_Example_CSharp.htm)
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.md)  
+[ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.md)  
+[DSldWorksEvents BeginRecordNotify](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSldWorksEvents_BeginRecordNotifyEventHandler.md)  
+[DSldWorks Events EndRecordNotify](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSldWorksEvents_EndRecordNotifyEventHandler.md)  
+[ISldWorks::RunMacro2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunMacro2.md)

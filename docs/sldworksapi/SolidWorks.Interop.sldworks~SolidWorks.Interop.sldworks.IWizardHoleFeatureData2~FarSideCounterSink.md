@@ -1,0 +1,71 @@
+# FarSideCounterSink Property
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~FarSideCounterSink`
+
+Gets whether the far side option is selected for the Hole Wizard countersink feature.
+Gets whether the far side option is selected for the Hole Wizard countersink feature.
+
+****NOTE:** This property is a get-only property. Set is not implemented.**
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Property FarSideCounterSink As System.Boolean
+```
+
+```
+
+Dim instance As IWizardHoleFeatureData2
+Dim value As System.Boolean
+ 
+instance.FarSideCounterSink = value
+ 
+value = instance.FarSideCounterSink
+```
+
+```
+
+System.bool FarSideCounterSink {get; set;}
+```
+
+```
+
+property System.bool FarSideCounterSink {
+   System.bool get();
+   void set (    System.bool value);
+}
+```
+
+#### Property Value
+
+True if the far side option for the countersink Hole Wizard feature is selected, false if not (see **Remarks**)
+
+Example
+
+[Select Near and Far Side Hole Wizard Countersink Options (C#)](Select_Near_and_Far_Side_Countersink_Hole_Options_Example_CSharp.htm)  
+[Select Near and Far Side Hole Wizard Countersink Options (VB.NET)](Select_Near_and_Far_Side_Countersink_Hole_Options_Example_VBNET.htm)  
+[Select Near and Far Side Hole Wizard Countersink Options (VBA)](Select_Near_and_Far_Side_Countersink_Hole_Options_Example_VB.htm)
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.md)  
+[IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.md)  
+[IWizardHoleFeatureData2::NearSideCounterSink Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~NearSideCounterSink.md)  
+[IWizardHoleFeatureData2::NearCounterSinkAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~NearCounterSinkAngle.md)  
+[IWizardHoleFeatureData2::NearCounterSinkDiameter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~NearCounterSinkDiameter.md)  
+[IWizardHoleFeatureData2::CounterSinkAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterSinkAngle.md)  
+[IWizardHoleFeatureData2::CounterSinkDiameter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterSinkDiameter.md)  
+[IWizardHoleFeatureData2::MidCounterSinkAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~MidCounterSinkAngle.md)  
+[IWizardHoleFeatureData2::MidCounterSinkDiameter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~MidCounterSinkDiameter.md)

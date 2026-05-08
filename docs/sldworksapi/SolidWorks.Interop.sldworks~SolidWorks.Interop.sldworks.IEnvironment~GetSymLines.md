@@ -1,0 +1,92 @@
+# GetSymLines Method (IEnvironment)
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment~GetSymLines`
+
+Gets an array that defines all lines in the specified geometric tolerance symbol.
+Gets an array that defines all lines in the specified geometric tolerance symbol.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Function GetSymLines( _
+   ByVal SymId As System.String _
+) As System.Object
+```
+
+```
+
+Dim instance As IEnvironment
+Dim SymId As System.String
+Dim value As System.Object
+ 
+value = instance.GetSymLines(SymId)
+```
+
+```
+
+System.object GetSymLines( 
+   System.string SymId
+)
+```
+
+```
+
+System.Object^ GetSymLines( 
+   System.String^ SymId
+) 
+```
+
+#### Parameters
+
+*SymId*
+:   Name of the geometric tolerance symbol formatted as:
+
+    <*LibraryName-SymbolName*>
+
+    where *LibraryName* and *SymbolName* are in the SOLIDWORKS text file **C:\ProgramData\SolidWorks\SolidWorks 20***nn*\**lang**\**english\gtol.sym****.**
+
+    NOTE: You must include the right- and left-angle brackets and separate *LibraryName* and *SymbolName* with a hyphen; for example, <MOD-DEG>.
+
+#### Return Value
+
+Array (see **Remarks**)
+
+Remarks
+
+Each line in the geometric tolerance symbol is defined by two points. The size of the array returned by this method is based on the number of lines within this geometric tolerance symbol. You can determine this number using the return value line count from [IEnvironment::GetSymEdgeCounts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment~GetSymEdgeCounts.md).
+
+The format of return value is the following array of doubles (in this example, for the *i*th line):
+
+retval[6 \* i + 0] = x coordinate of first point
+
+retval[6 \* i + 1] = y coordinate of first point
+
+retval[6 \* i + 2] = z coordinate of first point
+
+retval[6 \* i + 3] = x coordinate of second point
+
+retval[6 \* i + 4] = y coordinate of second point
+
+retval[6 \* i + 5] = z coordinate of second point
+
+Example
+
+See the [IEnvironment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment.md) examples.
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IEnvironment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment.md)  
+[IEnvironment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment_members.md)  
+[IEnvironment::IGetSymLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment~IGetSymLines.md)

@@ -1,0 +1,109 @@
+# IFace Interface Members
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members`
+
+Obsolete. Superseded by IFace2.
+The following tables list the members exposed by [IFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.md).
+
+Public Properties
+
+|  | Name | Description |
+| --- | --- | --- |
+| Property | [IMaterialPropertyValues](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IMaterialPropertyValues.md) | Obsolete. Superseded by [IFace2::IMaterialPropertyValues](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IMaterialPropertyValues.md). |
+| Property | [INormal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~INormal.md) | Obsolete. Superseded by [IFace2::INormal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~INormal.md).  **NOTE:** **This property is a get-only property.** **Set is not implemented**. |
+| Property | [MaterialIdName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~MaterialIdName.md) | Obsolete. Superseded by [IFace2::MaterialIdName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~MaterialIdName.md). |
+| Property | [MaterialPropertyValues](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~MaterialPropertyValues.md) | Obsolete. Superseded by [IFace2::MaterialPropertyValues](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~MaterialPropertyValues.md). |
+| Property | [MaterialUserName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~MaterialUserName.md) | Obsolete. Superseded by [IFace2::MaterialUserName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~MaterialUserName.md). |
+| Property | [Normal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~Normal.md) | Obsolete. Superseded by [IFace2::Normal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~Normal.md).  **NOTE:** **This property is a get-only property.** **Set is not implemented**. |
+
+[Top](#top)
+
+Public Methods
+
+|  | Name | Description |
+| --- | --- | --- |
+| Method | [AddPropertyExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~AddPropertyExtension.md) | Obsolete. Superseded by [IFace2::AddPropertyExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~AddPropertyExtension.md). |
+| Method | [CreateSheetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~CreateSheetBody.md) | Obsolete. Superseded by [IFace2::CreateSheetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~CreateSheetBody.md). |
+| Method | [CreateSheetBodyByFaceExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~CreateSheetBodyByFaceExtension.md) | Obsolete. Superseded by [IFace2:: CreateSheetbodyByFaceExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~CreateSheetBodyByFaceExtension.md). |
+| Method | [EnumEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~EnumEdges.md) | Obsolete. Superseded by [IFace2:: EnumEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~EnumEdges.md). |
+| Method | [EnumLoops](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~EnumLoops.md) | Obsolete. Superseded by [IFace2:: EnumLoops](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~EnumLoops.md). |
+| Method | [FaceInSurfaceSense](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~FaceInSurfaceSense.md) | Obsolete. Superseded by [IFace2::FaceInSurfaceSense](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~FaceInSurfaceSense.md). |
+| Method | [GetArea](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetArea.md) | Obsolete. Superseded by [IFace2:: GetArea.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetArea.md) |
+| Method | [GetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetBody.md) | Obsolete. Superseded by [IFace2:: GetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetBody.md). |
+| Method | [GetBox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetBox.md) | Obsolete. Superseded by [IFace2:: GetBox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetBox.md). |
+| Method | [GetClosestPointOn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetClosestPointOn.md) | Obsolete. Superseded by [IFace2:: GetClosestPointOn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetClosestPointOn.md). |
+| Method | [GetEdgeCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetEdgeCount.md) | Obsolete. Superseded by [IFace2::GetEdgeCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetEdgeCount.md). |
+| Method | [GetEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetEdges.md) | Obsolete. Superseded by [IFace2::GetEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetEdges.md). |
+| Method | [GetFaceId](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetFaceId.md) | Obsolete. Superseded by [IFace2::GetFaceId](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetFaceId.md). |
+| Method | [GetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetFeature.md) | Obsolete. Superseded by [IFace2::GetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetFeature.md). |
+| Method | [GetFeatureId](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetFeatureId.md) | Obsolete. Superseded by [IFace2::GetFeatureId](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetFeatureId.md). |
+| Method | [GetFirstLoop](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetFirstLoop.md) | Obsolete. Superseded by [IFace2::GetFirstLoop](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetFirstLoop.md). |
+| Method | [GetLoopCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetLoopCount.md) | Obsolete. Superseded by [IFace2::GetLoopCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetLoopCount.md). |
+| Method | [GetNextFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetNextFace.md) | Obsolete. Superseded by [IFace2::GetNextFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetNextFace.md). |
+| Method | [GetPatternSeedFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetPatternSeedFeature.md) | Obsolete. Superseded by [IFace2::GetPatternSeedFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetPatternSeedFeature.md). |
+| Method | [GetPropertyExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetPropertyExtension.md) | Obsolete. Superseded by [IFace2::GetPropertyExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetPropertyExtension.md). |
+| Method | [GetShellType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetShellType.md) | Obsolete. Superseded by [IFace2::GetShellType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetShellType.md). |
+| Method | [GetSilhoutteEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetSilhoutteEdges.md) | Obsolete. Superseded by [IFace2::GetSilhoutteEdgesVB](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetSilhoutteEdgesVB.md). |
+| Method | [GetSilhoutteEdgesVB](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetSilhoutteEdgesVB.md) | Obsolete. Superseded by [IFace2::GetSilhoutteEdgesVB](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetSilhoutteEdgesVB.md). |
+| Method | [GetSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetSurface.md) | Obsolete. Superseded by [IFace2::GetSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetSurface.md). |
+| Method | [GetTessNorms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTessNorms.md) | Obsolete. Superseded by [IFace2::GetTessNorms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessNorms.md). |
+| Method | [GetTessTriangleCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTessTriangleCount.md) | Obsolete. Superseded by [IFace2::GetTessTriangleCount.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriangleCount.md) |
+| Method | [GetTessTriangles](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTessTriangles.md) | Obsolete. Superseded by [IFace2::GetTessTriangles.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriangles.md) |
+| Method | [GetTessTriStripEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTessTriStripEdges.md) | Obsolete. Superseded by [IFace2::GetTessTriStripEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripEdges.md). |
+| Method | [GetTessTriStripNorms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTessTriStripNorms.md) | Obsolete. Superseded by [IFace2::GetTessTriStripNorms.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripNorms.md) |
+| Method | [GetTessTriStrips](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTessTriStrips.md) | Obsolete. Superseded by [IFace2::GetTessTriStrips](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStrips.md). |
+| Method | [GetTessTriStripSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTessTriStripSize.md) | Obsolete. Superseded by [IFace2::GetTessTriStripSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripSize.md). |
+| Method | [GetTrimCurves](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTrimCurves.md) | Obsolete. Superseded by [IFace2::GetTrimCurves2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTrimCurves2.md). |
+| Method | [GetTrimCurves2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTrimCurves2.md) | Obsolete. Superseded by [IFace2::GetTrimCurves2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTrimCurves2.md). |
+| Method | [GetTrimCurveTopology](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTrimCurveTopology.md) | Obsolete. Superseded by [IFace2::GetTrimCurveTopology](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTrimCurveTopology.md). |
+| Method | [GetTrimCurveTopologyCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTrimCurveTopologyCount.md) | Obsolete. Superseded by [IFace2::GetTrimCurveTopologyCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTrimCurveTopologyCount.md). |
+| Method | [GetTrimCurveTopologyTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetTrimCurveTopologyTypes.md) | Obsolete. Superseded by [IFace2::GetTrimCurveTopologyTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTrimCurveTopologyTypes.md). |
+| Method | [GetUVBounds](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~GetUVBounds.md) | Obsolete. Superseded by [IFace2::GetUVBounds](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetUVBounds.md). |
+| Method | [Highlight](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~Highlight.md) | Obsolete. Superseded by [IFace2::Highlight](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~Highlight.md). |
+| Method | [ICreateSheetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~ICreateSheetBody.md) | Obsolete. Superseded by [IFace2::ICreateSheetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~ICreateSheetBody.md). |
+| Method | [ICreateSheetBodyByFaceExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~ICreateSheetBodyByFaceExtension.md) | Obsolete. Superseded by [IFace2::ICreateSheetBodyByFaceExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~ICreateSheetBodyByFaceExtension.md). |
+| Method | [IGetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetBody.md) | Obsolete. Superseded by [IFace2::IGetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetBody.md). |
+| Method | [IGetBox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetBox.md) | Obsolete. Superseded by [IFace2::IGetBox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetBox.md). |
+| Method | [IGetClosestPointOn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetClosestPointOn.md) | Obsolete. Superseded by [IFace2::IGetClosestPointOn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetClosestPointOn.md). |
+| Method | [IGetEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetEdges.md) | Obsolete. Superseded by [IFace2::IGetEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetEdges.md). |
+| Method | [IGetFacetData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetFacetData.md) | Obsolete. Superseded by [IFace2::IGetTessNorms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessNorms.md), [IFace2::IGetTessTextures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTextures.md), [IFace2::GetTessTriangleCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriangleCount.md), [IFace2::IGetTriangles](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriangles.md), [IFace2::IGetTessTriStripEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStripEdges.md), [IFace2::IGetTessTriStrips](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStrips.md), and [IFace2::GetTessTriStripSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripSize.md). |
+| Method | [IGetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetFeature.md) | Obsolete. Superseded by [IFace2::IGetFeature.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetFeature.md) |
+| Method | [IGetFirstLoop](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetFirstLoop.md) | Obsolete. Superseded by [IFace2::IGetFirstLoop.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetFirstLoop.md) |
+| Method | [IGetNextFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetNextFace.md) | Obsolete. Superseded by [IFace2::IGetNextFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetNextFace.md). |
+| Method | [IGetPatternSeedFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetPatternSeedFeature.md) | Obsolete. Superseded by [IFace2::IGetPatternSeedFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetPatternSeedFeature.md). |
+| Method | [IGetSilhoutteEdgeCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetSilhoutteEdgeCount.md) | Obsolete. Superseded by [IFace2::IGetSilhoutteEdgeCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetSilhoutteEdgeCount.md). |
+| Method | [IGetSilhoutteEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetSilhoutteEdges.md) | Obsolete. Superseded by [IFace2::IGetSilhoutteEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetSilhoutteEdges.md). |
+| Method | [IGetSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetSurface.md) | Obsolete. Superseded by [IFace2::IGetSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetSurface.md). |
+| Method | [IGetTessNorms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTessNorms.md) | Obsolete. Superseded by [IFace2::IGetTessNorms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessNorms.md). |
+| Method | [IGetTessTriangles](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTessTriangles.md) | Obsolete. Superseded by [IFace2::IGetTessTriangles](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriangles.md). |
+| Method | [IGetTessTriStripEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTessTriStripEdges.md) | Obsolete. Superseded by [IFace2::IGetTessTriStripEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStripEdges.md). |
+| Method | [IGetTessTriStripEdgeSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTessTriStripEdgeSize.md) | Obsolete. Superseded by [IFace2::IGetTessTriStripEdgeSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStripEdges.md). |
+| Method | [IGetTessTriStripNorms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTessTriStripNorms.md) | Obsolete. Superseded by [IFace2::IGetTessTripStripNorms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStripNorms.md). |
+| Method | [IGetTessTriStrips](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTessTriStrips.md) | Obsolete. Superseded by [IFace2::IGetTessTriStrips](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStrips.md). |
+| Method | [IGetTrimCurve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTrimCurve.md) | Obsolete. Superseded by [IFace2::IGetTrimCurve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTrimCurves2.md). |
+| Method | [IGetTrimCurveSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTrimCurveSize.md) | Obsolete. Superseded by [IFace2::IGetTrimCurveSize2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTrimCurveSize2.md). |
+| Method | [IGetTrimCurveSize2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTrimCurveSize2.md) | Obsolete. Superseded by [IFace2::IGetTrimCurveSize2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTrimCurveSize2.md). |
+| Method | [IGetTrimCurveTopology](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTrimCurveTopology.md) | Obsolete. Superseded by [IFace2::IGetTrimCurveTopology](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTrimCurveTopology.md). |
+| Method | [IGetTrimCurveTopologyTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetTrimCurveTopologyTypes.md) | Obsolete. Superseded by [IFace2::IGetTrimCurveTopologyTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTrimCurveTopologyTypes.md). |
+| Method | [IGetUVBounds](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IGetUVBounds.md) | Obsolete. Superseded by [IFace2::IGetUVBounds](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetUVBounds.md). |
+| Method | [IHighlight](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IHighlight.md) | Obsolete. Superseded by [IFace2::IHighlight](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IHighlight.md). |
+| Method | [IIsSame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IIsSame.md) | Obsolete. Superseded by [IFace2::IIsSame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IIsSame.md). |
+| Method | [IRemoveInnerLoops](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IRemoveInnerLoops.md) | Obsolete. Superseded by [IFace2::IRemoveInnterLoops](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IRemoveInnerLoops.md). |
+| Method | [IsSame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~IsSame.md) | Obsolete. Superseded by [IFace2::IsSame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IsSame.md). |
+| Method | [RemoveFaceId](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~RemoveFaceId.md) | Obsolete. Superseded by [IFace2::RemoveFaceId](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~RemoveFaceId.md). |
+| Method | [RemoveInnerLoops](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~RemoveInnerLoops.md) | Obsolete. Superseded by [IFace2::RemoveInnterLoops](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~RemoveInnerLoops.md). |
+| Method | [RemoveMaterialProperty](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~RemoveMaterialProperty.md) | Obsolete. Superseded by [IFace2::RemoveMaterialProperty2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~RemoveMaterialProperty2.md). |
+| Method | [RemoveRedundantTopology](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~RemoveRedundantTopology.md) | Obsolete. Superseded by [IFace2::RemoveRedundantTopology](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~RemoveRedundantTopology.md). |
+| Method | [ResetPropertyExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~ResetPropertyExtension.md) | Obsolete. Superseded by [IFace2::ResetPropertyExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~ResetPropertyExtension.md). |
+| Method | [SetFaceId](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace~SetFaceId.md) | Obsolete. Superseded by [IFace2::SetFaceId](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~SetFaceId.md). |
+
+[Top](#top)
+
+ 
+
+See Also
+
+#### Reference
+
+[IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.md)  
+[SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.md)

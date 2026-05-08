@@ -1,0 +1,55 @@
+# ViewDisplayShaded Method (IModelDoc2)
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDisplayShaded`
+
+Sets the current display mode to Shaded.
+Sets the current display mode to **Shaded**.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Sub ViewDisplayShaded() 
+```
+
+```
+
+Dim instance As IModelDoc2
+ 
+instance.ViewDisplayShaded()
+```
+
+```
+
+void ViewDisplayShaded()
+```
+
+```
+
+void ViewDisplayShaded(); 
+```
+
+Example
+
+[Display Hidden Lines (VBA)](Display_Hidden_Lines_Example_VB.htm)  
+[Display Hidden Lines (VB.NET)](Display_Hidden_Lines_Example_VBNET.htm)  
+[Display Hidden Lines (C#)](Display_Hidden_Lines_Example_CSharp.htm)
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.md)  
+[IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.md)  
+[IModelDoc2::ViewDisplayHiddengreyed Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDisplayHiddengreyed.md)  
+[IModelDoc2::ViewDisplayHiddenremoved Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDisplayHiddenremoved.md)  
+[IModelDoc2::ViewDisplayWireframe Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDisplayWireframe.md)

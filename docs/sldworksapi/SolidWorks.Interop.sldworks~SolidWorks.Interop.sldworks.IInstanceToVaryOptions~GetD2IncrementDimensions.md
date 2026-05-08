@@ -1,0 +1,65 @@
+# GetD2IncrementDimensions Method
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions~GetD2IncrementDimensions`
+
+Gets the dimensions to increment in Direction 2.
+Gets the dimensions to increment in Direction 2.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Sub GetD2IncrementDimensions( _
+   ByRef IncrementDimensions As System.Object, _
+   ByRef IncrementDimValues As System.Object _
+) 
+```
+
+```
+
+Dim instance As IInstanceToVaryOptions
+Dim IncrementDimensions As System.Object
+Dim IncrementDimValues As System.Object
+ 
+instance.GetD2IncrementDimensions(IncrementDimensions, IncrementDimValues)
+```
+
+```
+
+void GetD2IncrementDimensions( 
+   out System.object IncrementDimensions,
+   out System.object IncrementDimValues
+)
+```
+
+```
+
+void GetD2IncrementDimensions( 
+   [Out] System.Object^ IncrementDimensions,
+   [Out] System.Object^ IncrementDimValues
+) 
+```
+
+#### Parameters
+
+*IncrementDimensions*
+:   Array of dimensions to increment
+
+*IncrementDimValues*
+:   Array of dimension increments in Direction 2
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IInstanceToVaryOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.md)  
+[IInstanceToVaryOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.md)

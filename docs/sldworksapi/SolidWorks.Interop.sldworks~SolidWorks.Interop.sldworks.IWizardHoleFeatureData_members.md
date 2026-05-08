@@ -1,0 +1,71 @@
+# IWizardHoleFeatureData Interface Members
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members`
+
+Obsolete. Superseded by IWizardHoleFeatureData2.
+The following tables list the members exposed by [IWizardHoleFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.md).
+
+Public Properties
+
+|  | Name | Description |
+| --- | --- | --- |
+| Property | [CounterBoreDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~CounterBoreDepth.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::CounterBoreDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterBoreDepth.md). |
+| Property | [CounterBoreDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~CounterBoreDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::CounterBoreDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterBoreDiameter.md). |
+| Property | [CounterDrillAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~CounterDrillAngle.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::CounterDrillAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterDrillAngle.md). |
+| Property | [CounterDrillDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~CounterDrillDepth.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::CounterDrillDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterDrillDepth.md). |
+| Property | [CounterDrillDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~CounterDrillDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::CounterDrillDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterDrillDiameter.md). |
+| Property | [CounterSinkAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~CounterSinkAngle.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::CounterSinkAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterSinkAngle.md). |
+| Property | [CounterSinkDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~CounterSinkDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::CounterSinkDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterSinkDiameter.md). |
+| Property | [Depth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~Depth.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::Depth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~Depth.md). |
+| Property | [Diameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~Diameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::Diameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~Diameter.md). |
+| Property | [DrillAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~DrillAngle.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::DrillAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~DrillAngle.md). |
+| Property | [EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~EndCondition.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~EndCondition.md). |
+| Property | [Face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~Face.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::Face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~Face.md). |
+| Property | [FarCounterSinkAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~FarCounterSinkAngle.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::FarCounterSinkAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~FarCounterSinkAngle.md). |
+| Property | [FarCounterSinkDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~FarCounterSinkDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::FarCounterSinkDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~FarCounterSinkDiameter.md). |
+| Property | [FastenerSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~FastenerSize.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::FastenerSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~FastenerSize.md).  **NOTE:** **This property is a get-only property.** **Set is not implemented**. |
+| Property | [FastenerType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~FastenerType.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::FastenerType2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~FastenerType2.md).  **NOTE:** **This property is a get-only property.** **Set is not implemented**. |
+| Property | [HeadClearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~HeadClearance.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::HeadClearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~HeadClearance.md). |
+| Property | [HoleDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~HoleDepth.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::HoleDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~HoleDepth.md). |
+| Property | [HoleDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~HoleDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::HoleDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~HoleDiameter.md). |
+| Property | [IFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~IFace.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::IFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~IFace.md). |
+| Property | [IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~IVertex.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~IVertex.md). |
+| Property | [MajorDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~MajorDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::MajorDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~MajorDiameter.md). |
+| Property | [MidCounterSinkAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~MidCounterSinkAngle.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::MidCounterSinkAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~MidCounterSinkAngle.md). |
+| Property | [MidCounterSinkDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~MidCounterSinkDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::MidCounterSinkDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~NearCounterSinkDiameter.md). |
+| Property | [MinorDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~MinorDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::MinorDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~MinorDiameter.md). |
+| Property | [NearCounterSinkAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~NearCounterSinkAngle.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::NearCounterSinkAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~NearCounterSinkAngle.md). |
+| Property | [NearCounterSinkDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~NearCounterSinkDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::NearCounterSinkDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~NearCounterSinkDiameter.md). |
+| Property | [Standard](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~Standard.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::Standard2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~Standard2.md).  **NOTE:** **This property is a get-only property.** **Set is not implemented**. |
+| Property | [TapDrillDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~TapDrillDepth.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::TapDrillDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~TapDrillDepth.md). |
+| Property | [TapDrillDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~TapDrillDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::TapDrillDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~TapDrillDiameter.md). |
+| Property | [ThreadAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~ThreadAngle.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::ThreadAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThreadAngle.md). |
+| Property | [ThreadDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~ThreadDepth.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::ThreadDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThreadDepth.md). |
+| Property | [ThreadDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~ThreadDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::ThreadDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThreadDiameter.md). |
+| Property | [ThruHoleDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~ThruHoleDepth.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::ThruHoleDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThruHoleDepth.md). |
+| Property | [ThruHoleDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~ThruHoleDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::ThruHoleDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThruHoleDiameter.md). |
+| Property | [ThruTapDrillDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~ThruTapDrillDepth.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::ThruTapDrillDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThruTapDrillDepth.md). |
+| Property | [ThruTapDrillDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~ThruTapDrillDiameter.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::ThruTapDrillDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThruTapDrillDiameter.md). |
+| Property | [Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~Type.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~Type.md). |
+| Property | [Vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~Vertex.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::Vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~Vertex.md). |
+
+[Top](#top)
+
+Public Methods
+
+|  | Name | Description |
+| --- | --- | --- |
+| Method | [AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~AccessSelections.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~AccessSelections.md). |
+| Method | [IAccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~IAccessSelections.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::IAccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~IAccessSelections.md). |
+| Method | [ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData~ReleaseSelectionAccess.md) | Obsolete. Superseded by [IWizardHoleFeatureData2::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ReleaseSelectionAccess.md). |
+
+[Top](#top)
+
+ 
+
+See Also
+
+#### Reference
+
+[IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.md)  
+[SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.md)

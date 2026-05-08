@@ -1,0 +1,29 @@
+# IHoleStandardsData Interface Members
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData_members`
+
+Allows access to Hole Wizard standards data.
+The following tables list the members exposed by [IHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.md).
+
+ 
+
+Public Methods
+
+|  | Name | Description |
+| --- | --- | --- |
+| Method | [GetFastenerTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTable.md) | Gets the Hole Wizard fastener table for the specified Hole Wizard standard, fastener ID, and fastener table type ID. |
+| Method | [GetFastenerTableTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTableTypes.md) | Gets the array of three fastener table type IDs for the given fastener in the given Hole Wizard standard. |
+| Method | [GetFastenerTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTypes.md) | Gets the fasteners in the specified Hole Wizard standard. |
+| Method | [GetHoleStandards](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetHoleStandards.md) | Gets Hole Wizard standards. |
+
+[Top](#top)
+
+ 
+
+See Also
+
+#### Reference
+
+[IHoleStandardsData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.md)  
+[SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.md)  
+[IHoleDataTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.md)

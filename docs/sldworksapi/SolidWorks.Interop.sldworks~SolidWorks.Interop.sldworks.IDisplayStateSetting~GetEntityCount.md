@@ -1,0 +1,56 @@
+# GetEntityCount Method
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting~GetEntityCount`
+
+Gets the number of entities for this display state setting.
+Gets the number of entities for this display state setting.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Function GetEntityCount() As System.Integer
+```
+
+```
+
+Dim instance As IDisplayStateSetting
+Dim value As System.Integer
+ 
+value = instance.GetEntityCount()
+```
+
+```
+
+System.int GetEntityCount()
+```
+
+```
+
+System.int GetEntityCount(); 
+```
+
+#### Return Value
+
+Number of entities
+
+Remarks
+
+Call this method to get the size of the array returned by [IDisplayStateSetting::IGetEntities](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting~IGetEntities.md).
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IDisplayStateSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting.md)  
+[IDisplayStateSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting_members.md)  
+[IDisplayStateSetting::Entities Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting~Entities.md)

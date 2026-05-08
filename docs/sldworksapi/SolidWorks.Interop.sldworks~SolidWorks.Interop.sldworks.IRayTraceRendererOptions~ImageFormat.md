@@ -1,0 +1,65 @@
+# ImageFormat Property
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ImageFormat`
+
+Gets or sets the format of the image.
+Gets or sets the format of the image.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Property ImageFormat As System.Integer
+```
+
+```
+
+Dim instance As IRayTraceRendererOptions
+Dim value As System.Integer
+ 
+instance.ImageFormat = value
+ 
+value = instance.ImageFormat
+```
+
+```
+
+System.int ImageFormat {get; set;}
+```
+
+```
+
+property System.int ImageFormat {
+   System.int get();
+   void set (    System.int value);
+}
+```
+
+#### Property Value
+
+Format of the image as defined in [swRayTraceRenderImageFormat\_e](ms-help://SolidWorks.Interop.swconst/SolidWorks/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRayTraceRenderImageFormat_e.html)
+
+Example
+
+[Render Model (C#)](Render_Model_Example_CSharp.htm)  
+[Render Model (VB.NET)](Render_Model_Example_VBNET.htm)  
+[Render Model (VBA)](Render_Model_Example_VB.htm)
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.md)  
+[IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.md)  
+[IRayTraceRendererOptions::ImageHeight Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ImageHeight.md)  
+[IRayTraceRendererOptions::ImageWidth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ImageWidth.md)  
+[IRayTraceRendererOptions::DefaultImagePath Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~DefaultImagePath.md)

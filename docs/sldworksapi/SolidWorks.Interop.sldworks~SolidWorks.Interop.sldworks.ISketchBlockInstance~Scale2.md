@@ -1,0 +1,60 @@
+# Scale2 Property (ISketchBlockInstance)
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~Scale2`
+
+Sets the scale for this block instance.
+Sets the scale for this block instance.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Property Scale2 As System.Double
+```
+
+```
+
+Dim instance As ISketchBlockInstance
+Dim value As System.Double
+ 
+instance.Scale2 = value
+ 
+value = instance.Scale2
+```
+
+```
+
+System.double Scale2 {get; set;}
+```
+
+```
+
+property System.double Scale2 {
+   System.double get();
+   void set (    System.double value);
+}
+```
+
+#### Property Value
+
+Scale: 0.0000001 to 500000 (see **Remarks**)
+
+Remarks
+
+The getter of this property is obsolete. It has been superseded by [ISketchBlockInstance::GetScale3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~GetScale3.md).
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.md)  
+[ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.md)

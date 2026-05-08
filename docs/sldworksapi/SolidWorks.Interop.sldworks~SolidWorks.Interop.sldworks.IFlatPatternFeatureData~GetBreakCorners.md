@@ -1,0 +1,67 @@
+# GetBreakCorners Method
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData~GetBreakCorners`
+
+Gets whether to add break corners to the Flat-Pattern feature.
+Gets whether to add break corners to the Flat-Pattern feature.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Function GetBreakCorners( _
+   ByRef PFeat As Feature _
+) As System.Boolean
+```
+
+```
+
+Dim instance As IFlatPatternFeatureData
+Dim PFeat As Feature
+Dim value As System.Boolean
+ 
+value = instance.GetBreakCorners(PFeat)
+```
+
+```
+
+System.bool GetBreakCorners( 
+   out Feature PFeat
+)
+```
+
+```
+
+System.bool GetBreakCorners( 
+   [Out] Feature^ PFeat
+) 
+```
+
+#### Parameters
+
+*PFeat*
+:   Flat-Pattern [feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.md) object
+
+#### Return Value
+
+True to add break corners, false to not
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IFlatPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData.md)  
+[IFlatPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData_members.md)  
+[IFlatPatternFeatureData::SetBreakCorners Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData~SetBreakCorners.md)  
+[IFlatPatternFeatureData::BreakCornerRadius Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData~BreakCornerRadius.md)  
+[IFlatPatternFeatureData::BreakCornerType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData~BreakCornerType.md)  
+[IBreakCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData.md)

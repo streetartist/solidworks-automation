@@ -1,0 +1,48 @@
+# InsertDatumTag Method
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertDatumTag`
+
+Obsolete. Superseded by IModelDoc2::InsertDatumTag2.
+Obsolete. Superseded by [IModelDoc2::InsertDatumTag2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertDatumTag2.md).
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Sub InsertDatumTag() 
+```
+
+```
+
+Dim instance As IDrawingDoc
+ 
+instance.InsertDatumTag()
+```
+
+```
+
+void InsertDatumTag()
+```
+
+```
+
+void InsertDatumTag(); 
+```
+
+#### Return Value
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.md)  
+[IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.md)

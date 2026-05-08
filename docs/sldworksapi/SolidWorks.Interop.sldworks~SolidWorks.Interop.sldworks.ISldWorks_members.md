@@ -1,0 +1,366 @@
+# ISldWorks Interface Members
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members`
+
+Provides direct and indirect access to all other interfaces exposed in the SOLIDWORKS API.
+The following tables list the members exposed by [ISldWorks](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.md).
+
+Public Properties
+
+|  | Name | Description |
+| --- | --- | --- |
+| Property | [ActiveDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActiveDoc.md) | Gets the currently active document. |
+| Property | [ActivePrinter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivePrinter.md) | Obsolete. Superseded by [IModelDoc2::Printer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~Printer.md). |
+| Property | [ApplicationType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ApplicationType.md) | Gets the type of this SOLIDWORKS application. |
+| Property | [CommandInProgress](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CommandInProgress.md) | Improves performance of out-of-process applications by informing SOLIDWORKS that a sequence of API calls will be made by the out-of-process application. |
+| Property | [EnableBackgroundProcessing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~EnableBackgroundProcessing.md) | Gets or sets whether to enable background processing. |
+| Property | [EnableFileMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~EnableFileMenu.md) | Gets or sets whether to enable file-related menus and toolbars. |
+| Property | [FrameHeight](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~FrameHeight.md) | Get or sets the height of the SOLIDWORKS window. |
+| Property | [FrameLeft](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~FrameLeft.md) | Gets or sets the left position of the SOLIDWORKS window. |
+| Property | [FrameState](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~FrameState.md) | Gets or sets the window state (minimum, maximum, or normal) for the SOLIDWORKS window. |
+| Property | [FrameTop](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~FrameTop.md) | Gets or sets the top position of the SOLIDWORKS window. |
+| Property | [FrameWidth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~FrameWidth.md) | Gets or sets the width of the frame of the SOLIDWORKS window. |
+| Property | [IActiveDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IActiveDoc.md) | Obsolete. Superseded by [ISldWorks::IActiveDoc2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IActiveDoc2.md). |
+| Property | [IActiveDoc2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IActiveDoc2.md) | Gets the currently active document. |
+| Property | [StartupProcessCompleted](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~StartupProcessCompleted.md) | Gets whether the SOLIDWORKS startup process, including loading all startup add-ins, has completed. |
+| Property | [TaskPaneIsPinned](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~TaskPaneIsPinned.md) | Gets or sets whether the SOLIDWORKS Task Pane is pinned. |
+| Property | [UserControl](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UserControl.md) | Gets and sets whether the user has control over the application. |
+| Property | [UserControlBackground](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UserControlBackground.md) | Gets and sets whether the user has control over the application. |
+| Property | [UserTypeLibReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UserTypeLibReferences.md) | Gets and sets the user-specified type library references. |
+| Property | [Visible](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~Visible.md) | Gets and sets the visibility property of the SOLIDWORKS application. |
+
+[Top](#top)
+
+Public Methods
+
+|  | Name | Description |
+| --- | --- | --- |
+| Method | [ActivateDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivateDoc.md) | Obsolete. Superseded by [ISldWorks::ActivateDoc2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivateDoc2.md) and [ISldWorks::IActivateDoc3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IActivateDoc3.md). |
+| Method | [ActivateDoc2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivateDoc2.md) | Obsolete. Superseded by [ISldWorks::ActivateDoc3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivateDoc3.md). |
+| Method | [ActivateDoc3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivateDoc3.md) | Activates a loaded document and rebuilds it as specified. |
+| Method | [ActivateTaskPane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivateTaskPane.md) | Activates the specified task pane. |
+| Method | [AddCallback](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddCallback.md) | Registers a general purpose callback handler. |
+| Method | [AddFileOpenItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileOpenItem.md) | Obsolete. Superseded by [ISldWorks::AddFileOpenItem3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileOpenItem3.md). |
+| Method | [AddFileOpenItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileOpenItem2.md) | Obsolete. Superseded by [ISldWorks::AddFileOpenItem3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileOpenItem3.md). |
+| Method | [AddFileOpenItem3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileOpenItem3.md) | Adds file types to the **File > Open** dialog box. |
+| Method | [AddFileSaveAsItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileSaveAsItem.md) | Obsolete. Superseded by [ISldWorks::AddFileSaveAsItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileSaveAsItem2.md). |
+| Method | [AddFileSaveAsItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileSaveAsItem2.md) | Adds a file type to the SOLIDWORKS **File > Save As** dialog box. |
+| Method | [AddItemToThirdPartyPopupMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddItemToThirdPartyPopupMenu.md) | Adds menu items to a pop-up (shortcut) menu in a C++ SOLIDWORKS add-in. |
+| Method | [AddItemToThirdPartyPopupMenu2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddItemToThirdPartyPopupMenu2.md) | Adds menu items to a pop-up (shortcut) menu in a SOLIDWORKS add-in. |
+| Method | [AddMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenu.md) | Adds a menu item to a SOLIDWORKS menu for DLL applications. |
+| Method | [AddMenuItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuItem.md) | Obsolete. Superseded by [ISldWorks::AddMenuItem3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuItem3.md). |
+| Method | [AddMenuItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuItem2.md) | Obsolete. Superseded by [ISldWorks::AddMenuItem3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuItem3.md). |
+| Method | [AddMenuItem3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuItem3.md) | Obsolete. Superseded by [ISldWorks::AddMenuItem4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuItem4.md). |
+| Method | [AddMenuItem4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuItem4.md) | Obsolete. Superseded by [ISldWorks::AddMenuItem5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuItem5.md). |
+| Method | [AddMenuItem5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuItem5.md) | Adds a menu item and image to the SOLIDWORKS user interface. |
+| Method | [AddMenuPopupItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuPopupItem.md) | Obsolete. Superseded by [ISldWorks::AddMenuPopupItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuPopupItem2.md). |
+| Method | [AddMenuPopupItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuPopupItem2.md) | Obsolete. Superseded by [ISldWorks::AddMenuPopupItem3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuPopupItem3.md) and [ISldWorks::AddMenuPopupItem4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuPopupItem4.md). |
+| Method | [AddMenuPopupItem3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuPopupItem3.md) | Adds a menu item and zero or more submenus to shortcut menus of entities of the specified type in documents of the specified type. |
+| Method | [AddMenuPopupItem4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuPopupItem4.md) | Adds a menu item and zero or more submenus to shortcut menus of features of the specified type in documents of the specified type. |
+| Method | [AddToolbar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar.md) | Obsolete. Superseded by [ISldWorks::AddToolbar4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar4.md). |
+| Method | [AddToolbar2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar2.md) | Obsolete. Superseded by [ISldWorks::AddToolbar4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar4.md). |
+| Method | [AddToolbar3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar3.md) | Obsolete. Superseded by [ISldWorks::AddToolbar4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar4.md). |
+| Method | [AddToolbar4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar4.md) | Obsolete. Superseded by [ISldWorks::AddToolbar5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar5.md). |
+| Method | [AddToolbar5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar5.md) | Creates a Windows-style dockable toolbar. |
+| Method | [AddToolbarCommand](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbarCommand.md) | Obsolete. Superseded by [ISldWorks::AddToolbarCommand2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbarCommand2.md). |
+| Method | [AddToolbarCommand2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbarCommand2.md) | Specifies the application functions to call when a toolbar button is clicked or sets a separator. |
+| Method | [AllowFailedFeatureCreation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AllowFailedFeatureCreation.md) | Sets whether to allow the creation of a feature that has rebuild errors. |
+| Method | [ArrangeIcons](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ArrangeIcons.md) | Arranges the icons in SOLIDWORKS. |
+| Method | [ArrangeWindows](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ArrangeWindows.md) | Arranges the open windows in SOLIDWORKS. |
+| Method | [BlockSkinning](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~BlockSkinning.md) | Blocks skinning a window, which prevents a window from looking like a SOLIDWORKS window. |
+| Method | [CallBack](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CallBack.md) | Allows an out-of-process executable or a SOLIDWORKS macro to call back a function in a SOLIDWORKS add-in DLL. |
+| Method | [CheckpointConvertedDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CheckpointConvertedDocument.md) | Saves the specified open document if its version is older than the version of the SOLIDWORKS product being used. |
+| Method | [CloseAllDocuments](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CloseAllDocuments.md) | Closes all open documents in the SOLIDWORKS session. |
+| Method | [CloseAndReopen](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CloseAndReopen.md) | Closes and reopens the specified drawing document without unloading its references from memory. |
+| Method | [CloseAndReopen2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CloseAndReopen2.md) | Closes and reopens the specified drawing document without unloading its references from memory. |
+| Method | [CloseDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CloseDoc.md) | Closes the specified document. |
+| Method | [CloseUserNotification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CloseUserNotification.md) | Closes the specified user notification. |
+| Method | [Command](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~Command.md) | Opens the specified dialog or file. |
+| Method | [CopyAppearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CopyAppearance.md) | Copies the appearance of the specified entity to the clipboard. |
+| Method | [CopyDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CopyDocument.md) | Copies a document and optionally updates references to it. |
+| Method | [CreateNewWindow](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CreateNewWindow.md) | Creates a client window containing the active document. |
+| Method | [CreatePropertyManagerPage](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CreatePropertyManagerPage.md) | Creates a PropertyManager page. |
+| Method | [CreateTaskpaneView](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CreateTaskpaneView.md) | Obsolete. Superseded by [ISldworks::CreateTaskpaneView2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CreateTaskpaneView2.md). |
+| Method | [CreateTaskpaneView2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CreateTaskpaneView2.md) | Obsolete. Superseded by [ISldworks::CreateTaskpaneView3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CreateTaskpaneView3.md). |
+| Method | [CreateTaskpaneView3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CreateTaskpaneView3.md) | Creates an application-level Task Pane view. |
+| Method | [DateCode](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DateCode.md) | Obsolete. Superseded by [ISldWorks::RevisionNumber](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RevisionNumber.md). |
+| Method | [DefineAttribute](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DefineAttribute.md) | Creates an attribute definition, which is the first step in generating attributes. |
+| Method | [DefineMessageBar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DefineMessageBar.md) | Called by a SOLIDWORKS add-in, creates a message bar definition object. |
+| Method | [DefineUserNotification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DefineUserNotification.md) | Called by a SOLIDWORKS add-in, creates a user notification definition object. |
+| Method | [DisplayStatusBar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DisplayStatusBar.md) | Sets whether to display the status bar. |
+| Method | [DocumentVisible](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DocumentVisible.md) | Allows the application to control the display of a document in a window upon creation or retrieval. |
+| Method | [DownloadFromMySolidWorksSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DownloadFromMySolidWorksSettings.md) | Downloads the specified [SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm) settings to SOLIDWORKS Desktop. |
+| Method | [DragToolbarButton](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DragToolbarButton.md) | Copies the specified toolbar button from the specified native SOLIDWORKS toolbar or [ICommandGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.md) toolbar to the specified native SOLIDWORKS toolbar or ICommandGroup toolbar. |
+| Method | [DragToolbarButtonFromCommandID](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DragToolbarButtonFromCommandID.md) | Copies a button to a toolbar using a command ID. |
+| Method | [EnablePhotoWorksProgressiveRender](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~EnablePhotoWorksProgressiveRender.md) | Obsolete. Not superseded. |
+| Method | [EnableStereoDisplay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~EnableStereoDisplay.md) | Obsolete and not superseded. Functionality no longer implemented. |
+| Method | [EnumDocuments](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~EnumDocuments.md) | Obsolete. Superseded by [ISldWorks::EnumDocuments2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~EnumDocuments2.md). |
+| Method | [EnumDocuments2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~EnumDocuments2.md) | Gets a list of documents currently open in the application. |
+| Method | [ExitApp](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ExitApp.md) | Shuts down SOLIDWORKS. |
+| Method | [ExportHoleWizardItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ExportHoleWizardItem.md) | Exports data for the specified Hole Wizard standard. |
+| Method | [ExportToolboxItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ExportToolboxItem.md) | Exports data for the specified Toolbox standard. |
+| Method | [Frame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~Frame.md) | Gets the SOLIDWORKS main frame. |
+| Method | [Get3DExperienceState](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~Get3DExperienceState.md) | Gets the current state of [SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm). |
+| Method | [GetActiveConfigurationName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetActiveConfigurationName.md) | Gets the name of the active configuration in the specified SOLIDWORKS document. |
+| Method | [GetActiveDisplayPane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetActiveDisplayPane.md) | Gets the active Display Pane. |
+| Method | [GetAddInObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetAddInObject.md) | Gets an add-in object for the specified SOLIDWORKS add-in. |
+| Method | [GetApplySelectionFilter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetApplySelectionFilter.md) | Gets the current state of the selection filter. |
+| Method | [GetBatchUploadedFilesInfo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetBatchUploadedFilesInfo.md) | Gets the files uploaded to 3DEXPERIENCE during a batch process. |
+| Method | [GetBuildNumbers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetBuildNumbers.md) | Obsolete. Superseded by [ISldWorks::GetBuildNumbers2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetBuildNumbers2.md). |
+| Method | [GetBuildNumbers2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetBuildNumbers2.md) | Gets the build, major revision, and hot fix numbers of the SOLIDWORKS application. |
+| Method | [GetButtonPosition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetButtonPosition.md) | Gets the center coordinates of the specified SOLIDWORKS toolbar button. |
+| Method | [GetCollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCollisionDetectionManager.md) | Gets the collision detection manager. |
+| Method | [GetColorTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetColorTable.md) | Gets a color table from the SOLIDWORKS application. |
+| Method | [GetCommandID](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCommandID.md) | Gets the SOLIDWORKS command ID for an instance of an add-in's control (e.g., an add-in's toolbar button). |
+| Method | [GetCommandManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCommandManager.md) | Gets the CommandManager for the specified add-in. |
+| Method | [GetConfigurationCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetConfigurationCount.md) | Gets the number of configurations in the SOLIDWORKS document, whether the document is opened or closed. |
+| Method | [GetConfigurationNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetConfigurationNames.md) | Gets the names of the configuration in this SOLIDWORKS document, whether the document is opened or closed. |
+| Method | [GetCurrentFileUser](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentFileUser.md) | Gets the name of the user who has the the specified document open. |
+| Method | [GetCurrentLanguage](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentLanguage.md) | Gets the current language used by SOLIDWORKS. |
+| Method | [GetCurrentLicenseType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentLicenseType.md) | Gets the type of license for the current SOLIDWORKS session. |
+| Method | [GetCurrentMacroPathFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentMacroPathFolder.md) | Gets the name of the folder where the macro resides. |
+| Method | [GetCurrentMacroPathName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentMacroPathName.md) | Gets the path name for the macro currently running. |
+| Method | [GetCurrentWorkingDirectory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentWorkingDirectory.md) | Gets the current working directory being used by the SOLIDWORKS application. |
+| Method | [GetDataFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDataFolder.md) | Gets the data directory name currently used by SOLIDWORKS. |
+| Method | [GetDocumentCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentCount.md) | Gets the number of open documents in the current SOLIDWORKS session. |
+| Method | [GetDocumentDependencies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentDependencies.md) | Obsolete. Superseded by [ISldWorks::GetDocumentDependencies2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentDependencies2.md). |
+| Method | [GetDocumentDependencies2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentDependencies2.md) | Gets all of the model dependencies for a document. |
+| Method | [GetDocumentDependenciesCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentDependenciesCount.md) | Obsolete. Superseded by [ISldWorks::IGetDocumentDependenciesCount2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetDocumentDependenciesCount2.md). |
+| Method | [GetDocuments](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocuments.md) | Gets the open documents in this SOLIDWORKS session. |
+| Method | [GetDocumentTemplate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentTemplate.md) | Gets the name of document template that can be used in [ISldWorks::NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) or [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [GetDocumentVisible](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentVisible.md) | Gets the visibility of the document to open. |
+| Method | [GetEnvironment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetEnvironment.md) | Gets the [IEnvironment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment.md) object. |
+| Method | [GetErrorMessages](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetErrorMessages.md) | Gets the last 20 messages issued by SOLIDWORKS in the current SOLIDWORKS session. |
+| Method | [GetExecutablePath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetExecutablePath.md) | Gets the path to the SOLIDWORKS executable, sldworks.exe. |
+| Method | [GetExportFileData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetExportFileData.md) | Gets the data interface for the specified file type to which to export one or more drawing sheets. |
+| Method | [GetFilePLMID](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetFilePLMID.md) | Gets the Product Lifecycle Management (PLM) ID of the specified file stored in 3DEXPERIENCE. |
+| Method | [GetFirstDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetFirstDocument.md) | Gets the document opened first in this SOLIDWORKS session. |
+| Method | [GetGtolFormatData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetGtolFormatData.md) | Gets the Gtol format and XML schema versions supported by this version of SOLIDWORKS. |
+| Method | [GetGtolFrameXMLSchema](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetGtolFrameXMLSchema.md) | Gets the XML schema for Gtol frame symbol XML. |
+| Method | [GetHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetHoleStandardsData.md) | Gets the hole standards for the specified hole type. |
+| Method | [GetImageSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetImageSize.md) | Gets:   - small, medium, and large image sizes suitable for the current DPI setting of the display device. - default image size for the current DPI setting of the display device for images that are not based on the SOLIDWORKS icon size setting. |
+| Method | [GetImportFileData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetImportFileData.md) | Gets the IGES or DXF/DWG import data for the specified file. |
+| Method | [GetInterfaceBrightnessThemeColors](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetInterfaceBrightnessThemeColors.md) | Gets the theme and colors of the SOLIDWORKS background. |
+| Method | [GetLastSaveError](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetLastSaveError.md) | Gets the last save error issued by Microsoft in the current session. |
+| Method | [GetLastToolbarID](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetLastToolbarID.md) | Gets the ID of the last toolbar added to the [CommandManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.md). |
+| Method | [GetLatestSupportedFileVersion](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetLatestSupportedFileVersion.md) | Gets the version number that this instance of SOLIDWORKS reads and writes. |
+| Method | [GetLineStyles](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetLineStyles.md) | Gets all of the line styles in the specified file. |
+| Method | [GetLocalizedMenuName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetLocalizedMenuName.md) | Gets a localized menu name for the specified menu ID. |
+| Method | [GetMacroMethods](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMacroMethods.md) | Gets the names of the modules in the specified macro. |
+| Method | [GetMassProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMassProperties.md) | Obsolete. Superseded by [ISldWorks::GetMassProperties2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMassProperties2.md) and [ISldWorks::IGetMassProperties2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetMassProperties2.md). |
+| Method | [GetMassProperties2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMassProperties2.md) | Gets the mass properties from the specified document for the specified configuration. |
+| Method | [GetMaterialDatabaseCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMaterialDatabaseCount.md) | Gets the number of material databases. |
+| Method | [GetMaterialDatabases](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMaterialDatabases.md) | Gets the names of the material databases. |
+| Method | [GetMaterialSchemaPathName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMaterialSchemaPathName.md) | Gets the path for the XML material schema file. |
+| Method | [GetMathUtility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMathUtility.md) | Gets [IMathUtility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.md). |
+| Method | [GetMenuStrings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMenuStrings.md) | Gets the name of the parent menu of the specified menu command. |
+| Method | [GetModeler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetModeler.md) | Gets the [IModeler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.md) interface. |
+| Method | [GetMouseDragMode](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMouseDragMode.md) | Gets whether the specified command-mouse mode is in effect. |
+| Method | [GetOpenDocSpec](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenDocSpec.md) | Gets the specifications to use when opening a model document. |
+| Method | [GetOpenDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenDocument.md) | Gets the open document with the specified name. |
+| Method | [GetOpenDocumentByName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenDocumentByName.md) | Gets the open document with the specified name. |
+| Method | [GetOpenedFileInfo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenedFileInfo.md) | Gets the name of the last model successfully opened by SOLIDWORKS and the options that were in effect when it opened. |
+| Method | [GetOpenFileName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenFileName.md) | Obsolete. Superseded by [ISldWorks::GetOpenFileName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenFileName2.md). |
+| Method | [GetOpenFileName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenFileName2.md) | Prompts the user for the name of the file to open. |
+| Method | [GetPreviewBitmap](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetPreviewBitmap.md) | Gets the preview bitmap (.bmp) for the specified configuration, regardless if the SOLIDWORKS document is open or closed. |
+| Method | [GetPreviewBitmapFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetPreviewBitmapFile.md) | Gets the specified preview bitmap of a document and saves it as a Windows bitmap file (.bmp) using the specified filename. |
+| Method | [GetProcessID](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetProcessID.md) | Gets the process ID for the current SOLIDWORKS session. |
+| Method | [GetRayTraceRenderer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetRayTraceRenderer.md) | Get a ray-trace rendering engine. |
+| Method | [GetRecentFiles](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetRecentFiles.md) | Gets a list of the most recently used files. |
+| Method | [GetRoutingSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetRoutingSettings.md) | Gets routing settings. |
+| Method | [GetRunningCommandInfo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetRunningCommandInfo.md) | Get a command's ID or PropertyManager page's command ID, title, and whether it is active in the user-interface. |
+| Method | [GetSafeArrayUtility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetSafeArrayUtility.md) | Gets the ISafeArrayUtility object. |
+| Method | [GetSaveTo3DExperienceOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetSaveTo3DExperienceOptions.md) | Initializes save options for a SOLIDWORKS Connected document. |
+| Method | [GetSearchFolders](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetSearchFolders.md) | Gets the current folder search path as shown in Tools > Options > System Options > File Locations > Show folders for > Referenced Documents. |
+| Method | [GetSelectionFilter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetSelectionFilter.md) | Gets the current selection filter settings for the specified item type. |
+| Method | [GetSelectionFilters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetSelectionFilters.md) | Gets all active selection filters. |
+| Method | [GetSSOFormattedURL](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetSSOFormattedURL.md) | Formats the specified URL for single sign-on. |
+| Method | [GetTemplateSizes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetTemplateSizes.md) | Gets the sheet properties from a template document. |
+| Method | [GetToolbarDock](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetToolbarDock.md) | Obsolete. Superseded by [ISldWorks::GetToolbarDock2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetToolbarDock2.md). |
+| Method | [GetToolbarDock2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetToolbarDock2.md) | Gets the docking state of the toolbar. |
+| Method | [GetToolbarState](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetToolbarState.md) | Obsolete. Superseded by [ISldWorks::GetToolbarState2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetToolbarState2.md). |
+| Method | [GetToolbarState2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetToolbarState2.md) | Gets the state of the toolbar. |
+| Method | [GetToolbarVisibility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetToolbarVisibility.md) | Gets whether this toolbar is visible. |
+| Method | [GetUserPreferenceDoubleValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserPreferenceDoubleValue.md) | Gets system default user preference values. |
+| Method | [GetUserPreferenceIntegerValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserPreferenceIntegerValue.md) | Gets system default user preference values. |
+| Method | [GetUserPreferenceStringListValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserPreferenceStringListValue.md) | Gets the name of the DXF mapping file. |
+| Method | [GetUserPreferenceStringValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserPreferenceStringValue.md) | Gets system default user preference values. |
+| Method | [GetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserPreferenceToggle.md) | Gets document default user preference values. |
+| Method | [GetUserProgressBar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserProgressBar.md) | Gets a progress indicator. |
+| Method | [GetUserTypeLibReferenceCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserTypeLibReferenceCount.md) | Gets the number of user-specified type library references. |
+| Method | [GetUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserUnit.md) | Gets an empty [IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.md) object of the specified type. |
+| Method | [HideBubbleTooltip](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~HideBubbleTooltip.md) | Hides the bubble ToolTip displayed by [ISldWorks::ShowBubbleTooltipAt2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltipAt2.md). |
+| Method | [HideToolbar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~HideToolbar.md) | Obsolete. Superseded by [ISldWorks::HideToolbar2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~HideToolbar2.md). |
+| Method | [HideToolbar2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~HideToolbar2.md) | Hides a toolbar created with [ISldWorks::AddToolbar5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar5.md). |
+| Method | [IActivateDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IActivateDoc.md) | Obsolete. Superseded by [ISldWorks::ActivateDoc2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivateDoc2.md) and [ISldWorks::IActivateDoc3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IActivateDoc3.md). |
+| Method | [IActivateDoc2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IActivateDoc2.md) | Obsolete. Superseded by [ISldWorks::ActivateDoc2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivateDoc2.md) and [ISldWorks::IActivateDoc3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IActivateDoc3.md). |
+| Method | [IActivateDoc3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IActivateDoc3.md) | Activates a document that has already been loaded. This file becomes the active document, and this method returns a pointer to that document object. |
+| Method | [ICopyDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ICopyDocument.md) | Copies a document and optionally updates references to it. |
+| Method | [ICreatePropertyManagerPage](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ICreatePropertyManagerPage.md) | Creates a PropertyManager page. |
+| Method | [IDefineAttribute](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IDefineAttribute.md) | Creates an attribute definition, which is the first step in generating attributes. |
+| Method | [IEnableStereoDisplay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IEnableStereoDisplay.md) | Obsolete and not superseded. Functionality no longer implemented. |
+| Method | [IGetColorTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetColorTable.md) | Gets a color table from the SOLIDWORKS application. |
+| Method | [IGetConfigurationNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetConfigurationNames.md) | Gets the names of the configuration in this SOLIDWORKS document, whether the document is opened or closed. |
+| Method | [IGetDocumentDependencies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetDocumentDependencies.md) | Obsolete. Superseded by [ISldWorks::IGetDocumentDependencies2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetDocumentDependencies2.md). |
+| Method | [IGetDocumentDependencies2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetDocumentDependencies2.md) | Gets all of the model dependencies for a document. |
+| Method | [IGetDocumentDependenciesCount2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetDocumentDependenciesCount2.md) | Gets the size of the array needed for a call to [ISldWorks::IGetDocumetnDependencies2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetDocumentDependencies2.md). |
+| Method | [IGetDocuments](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetDocuments.md) | Gets the open documents is this SOLIDWORKS session. |
+| Method | [IGetEnvironment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetEnvironment.md) | Gets the [IEnvironment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment.md) object. |
+| Method | [IGetFirstDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetFirstDocument.md) | Obsolete. Superseded by [ISldWorks::IGetFirstDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetFirstDocument2.md). |
+| Method | [IGetFirstDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetFirstDocument2.md) | Gets the document opened first in this SOLIDWORKS session. |
+| Method | [IGetMassProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetMassProperties.md) | Obsolete. Superseded by [ISldWorks::GetMassProperties2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMassProperties2.md) and [ISldWorks::IGetMassProperties2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetMassProperties2.md). |
+| Method | [IGetMassProperties2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetMassProperties2.md) | Gets the mass properties from the specified document for the specified configuration. |
+| Method | [IGetMaterialDatabases](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetMaterialDatabases.md) | Gets the names of the material databases. |
+| Method | [IGetMathUtility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetMathUtility.md) | Gets the [IMathUtility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.md) interface. |
+| Method | [IGetModeler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetModeler.md) | Gets the [IModeler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.md) interface. |
+| Method | [IGetOpenDocumentByName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetOpenDocumentByName.md) | Obsolete. Superseded [ISldWorks::IGetOpenDocumentByName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetOpenDocumentByName2.md). |
+| Method | [IGetOpenDocumentByName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetOpenDocumentByName2.md) | Gets the open document with the specified name. |
+| Method | [IGetRayTraceRenderer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetRayTraceRenderer.md) | Get a ray-trace rendering engine. |
+| Method | [IGetSelectionFilters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetSelectionFilters.md) | Gets all active selection filters. |
+| Method | [IGetSelectionFiltersCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetSelectionFiltersCount.md) | Gets the number of active selection filters. |
+| Method | [IGetTemplateSizes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetTemplateSizes.md) | Gets the sheet properties from a template document. |
+| Method | [IGetUserTypeLibReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetUserTypeLibReferences.md) | Gets the specified user-specified type library references. |
+| Method | [IGetUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetUserUnit.md) | Gets an empty [IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.md) object of the specified type. |
+| Method | [IGetVersionHistoryCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetVersionHistoryCount.md) | Gets the size of the array required to hold data returned by [ISldWorks::IVersionHistory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IVersionHistory.md). |
+| Method | [IMoveDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IMoveDocument.md) | Moves a document and optionally updates references to it. |
+| Method | [ImportHoleWizardItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ImportHoleWizardItem.md) | Imports data for the specified Hole Wizard standard. |
+| Method | [ImportToolboxItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ImportToolboxItem.md) | Imports data for the specified Toolbox standard. |
+| Method | [INewAssembly](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewAssembly.md) | Obsolete. Superseded by [ISldWorks::NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) and [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [INewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument.md) | Obsolete. Superseded by [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md) | Creates a new document based on the specified template. |
+| Method | [INewDrawing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDrawing.md) | Obsolete. Superseded by [ISldWorks::NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) and [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [INewDrawing2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDrawing2.md) | Obsolete. Superseded by [ISldWorks::NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) and [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [INewPart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewPart.md) | Obsolete. Superseded by [ISldWorks::NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) and [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [InstallQuickTipGuide](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~InstallQuickTipGuide.md) | Implements your add-in's copy of the [Quick Tips](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwQuickTip.md). |
+| Method | [IOpenDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IOpenDoc.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [IOpenDoc2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IOpenDoc2.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [IOpenDoc3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IOpenDoc3.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [IOpenDoc4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IOpenDoc4.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [IOpenDoc5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IOpenDoc5.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [IOpenDocSilent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IOpenDocSilent.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [IRemoveUserTypeLibReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IRemoveUserTypeLibReferences.md) | Removes the user-specified type library references. |
+| Method | [IsBackgroundProcessingCompleted](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IsBackgroundProcessingCompleted.md) | Gets whether SOLIDWORKS has finished background processing a drawing document that requires a lot of CPU time to open. |
+| Method | [IsCommandEnabled](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IsCommandEnabled.md) | Gets whether the specified command is enabled. |
+| Method | [ISetSelectionFilters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ISetSelectionFilters.md) | Sets the status for multiple selection filters. |
+| Method | [ISetUserTypeLibReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ISetUserTypeLibReferences.md) | Sets the user-specified type library references. |
+| Method | [IsRapidDraft](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IsRapidDraft.md) | Gets whether the specified drawing file is in SOLIDWORKS Detached format. |
+| Method | [IsSame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IsSame.md) | Gets whether the two specified objects are the same object. |
+| Method | [IsTaskPaneExpanded](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IsTaskPaneExpanded.md) | Gets whether the Task Pane is expanded. |
+| Method | [IsTaskPaneVisible](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IsTaskPaneVisible.md) | Gets whether the Task Pane is visible. |
+| Method | [IVersionHistory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IVersionHistory.md) | Gets a list of strings indicating the versions in which a model was saved. |
+| Method | [LoadAddIn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAddIn.md) | Loads the specified add-in in SOLIDWORKS. |
+| Method | [LoadAdminSettingsFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAdminSettingsFile.md) | Loads the specified **\*.sldsettings** file into [SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm). |
+| Method | [LoadFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile.md) | Obsolete. Superseded by [ISldWorks::LoadFile4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile4.md). |
+| Method | [LoadFile2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile2.md) | Obsolete. Superseded by [ISldWorks::LoadFile4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile4.md). |
+| Method | [LoadFile3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile3.md) | Obsolete. Superseded by [ISldWorks::LoadFile4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile4.md). |
+| Method | [LoadFile4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile4.md) | Loads a third-party native CAD file into a new SOLIDWORKS document using 3D Interconnect. |
+| Method | [MoveDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~MoveDocument.md) | Moves a document and optionally updates references to it. |
+| Method | [NewAssembly](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewAssembly.md) | Obsolete. Superseded by [ISldWorks::NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) and [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) | Creates a new document based on the specified template. |
+| Method | [NewDrawing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDrawing.md) | Obsolete. Superseded by [ISldWorks::NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) and [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [NewDrawing2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDrawing2.md) | Obsolete. Superseded by [ISldWorks::NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) and [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [NewPart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewPart.md) | Obsolete. Superseded by [ISldWorks::NewDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.md) and [ISldWorks::INewDocument2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~INewDocument2.md). |
+| Method | [OpenDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [OpenDoc2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc2.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [OpenDoc3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc3.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [OpenDoc4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc4.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md) | Opens an existing document and returns a pointer to the document object. |
+| Method | [OpenDoc7](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc7.md) | Opens an existing document and returns a pointer to the document object. |
+| Method | [OpenDocSilent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDocSilent.md) | Obsolete. Superseded by [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.md). |
+| Method | [PasteAppearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PasteAppearance.md) | Applies to the specified entity an appearance that has been copied to the clipboard. |
+| Method | [PostMessageToApplication](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PostMessageToApplication.md) | Posts a message to the application that invoked this method. |
+| Method | [PostMessageToApplicationx64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PostMessageToApplicationx64.md) | Posts a message to the application that invoked this method in 64-bit applications. |
+| Method | [PreSelectDwgTemplateSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreSelectDwgTemplateSize.md) | Establishes which template to use when creating a drawing. |
+| Method | [PresetNewDrawingParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PresetNewDrawingParameters.md) | Presets the drawing template and sheet size parameters to avoid showing the Sheet Format/Size dialog when creating a new drawing document in the user-interface. |
+| Method | [PreviewDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreviewDoc.md) | Displays a preview of a document to the specified window. |
+| Method | [PreviewDocx64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreviewDocx64.md) | Displays a preview of a document to the specified window in 64-bit applications. |
+| Method | [QuitDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~QuitDoc.md) | Closes the specified document without saving changes. |
+| Method | [RecordLine](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RecordLine.md) | Adds a line of code to a VBA macro and the SOLIDWORKS journal file. |
+| Method | [RecordLineCSharp](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RecordLineCSharp.md) | Adds a line of code to a C# macro and the SOLIDWORKS journal file. |
+| Method | [RecordLineVBnet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RecordLineVBnet.md) | Adds a line of code to a VB.NET macro and the SOLIDWORKS journal file. |
+| Method | [RefreshQuickTipWindow](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RefreshQuickTipWindow.md) | Tells the SOLIDWORKS application that your add-in's state has changed and triggers a query for the current URL page. |
+| Method | [RefreshTaskpaneContent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RefreshTaskpaneContent.md) | Refreshes the view of the Design Library tab in the Task Pane. |
+| Method | [RegisterThirdPartyPopupMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RegisterThirdPartyPopupMenu.md) | Registers a third-party pop-up (shortcut) menu. |
+| Method | [RegisterTrackingDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RegisterTrackingDefinition.md) | Registers a tracking definition. |
+| Method | [RemoveCallback](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveCallback.md) | Unregisters a general purpose callback handler. |
+| Method | [RemoveFileOpenItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFileOpenItem.md) | Obsolete. Superseded by [ISldWorks::RemoveFileOpenItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFileOpenItem2.md). |
+| Method | [RemoveFileOpenItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFileOpenItem2.md) | Removes a file type from the File > Open dialog box that was added using [ISldWorks::AddFileOpenItem3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileOpenItem3.md). |
+| Method | [RemoveFileSaveAsItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFileSaveAsItem.md) | Obsolete. Superseded by [ISldWorks::RemoveFileSaveAsItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFileSaveAsItem2.md). |
+| Method | [RemoveFileSaveAsItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFileSaveAsItem2.md) | Removes a file type from the **File > Save As** dialog box that was added using [ISldWorks::AddFileSaveAsItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileSaveAsItem2.md). |
+| Method | [RemoveFromMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFromMenu.md) | Removes:   - the specified command from all main frame menus or a toolbar or both - the specified command's parent menus |
+| Method | [RemoveFromPopupMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFromPopupMenu.md) | Removes the specified menu item from one or all specified context-sensitive menus (also called shortcut menus and pop-up menus) for the specified document types. |
+| Method | [RemoveItemFromThirdPartyPopupMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveItemFromThirdPartyPopupMenu.md) | Removes a menu item and icon from a third-party pop-up (shortcut) menu. |
+| Method | [RemoveMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveMenu.md) | Removes a menu item from the specified document frame. |
+| Method | [RemoveMenuPopupItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveMenuPopupItem.md) | Obsolete. Superseded by [ISldWorks::RemoveMenuPopupItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveMenuPopupItem2.md). |
+| Method | [RemoveMenuPopupItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveMenuPopupItem2.md) | Removes an item on a pop-up (shortcut) menu. |
+| Method | [RemoveToolbar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveToolbar.md) | Obsolete. Superseded by [ISldWorks::RemoveToobar2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveToolbar2.md). |
+| Method | [RemoveToolbar2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveToolbar2.md) | Removes a toolbar created with [ISldWorks::AddToolbar5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar5.md). |
+| Method | [RemoveUserMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveUserMenu.md) | Obsolete. Superseded by [ISldWorks::RemoveMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveMenu.md). |
+| Method | [RemoveUserTypeLibReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveUserTypeLibReferences.md) | Removes the user-specified type library references. |
+| Method | [ReplaceReferencedDocument](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ReplaceReferencedDocument.md) | Replaces a referenced document. |
+| Method | [ResetPresetDrawingParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ResetPresetDrawingParameters.md) | Resets SOLIDWORKS back to its default behavior after calling [ISldWorks::PresetNewDrawingParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PresetNewDrawingParameters.md) (i.e., display Sheet Format/Size dialog when opening a new drawing document). |
+| Method | [ResetUntitledCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ResetUntitledCount.md) | Resets the index of untitled documents. |
+| Method | [RestoreSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RestoreSettings.md) | Restores the specified SOLIDWORKS settings from the specified **\*.sldreg** file. |
+| Method | [ResumeSkinning](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ResumeSkinning.md) | Resumes skinning windows. |
+| Method | [RevisionNumber](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RevisionNumber.md) | Gets the version number of this SOLIDWORKS installation. |
+| Method | [RunAttachedMacro](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunAttachedMacro.md) | Runs the specified attached macro, module, and procedure. |
+| Method | [RunBatchSaveProcess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunBatchSaveProcess.md) | Batch saves files to 3DEXPERIENCE. |
+| Method | [RunCommand](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunCommand.md) | Runs the specified SOLIDWORKS command. |
+| Method | [RunJournalCmd](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunJournalCmd.md) | Do not use. |
+| Method | [RunMacro](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunMacro.md) | Obsolete. Superseded by [ISldWorks::RunMacro2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunMacro2.md). |
+| Method | [RunMacro2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunMacro2.md) | Runs a macro from a project file. |
+| Method | [SaveSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SaveSettings.md) | Saves the specified SOLIDWORKS settings to the specified **\*.sldreg** file. |
+| Method | [SendMsgToUser](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SendMsgToUser.md) | Obsolete. Superseded by [ISldWorks::SendMsgToUser2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SendMsgToUser2.md). |
+| Method | [SendMsgToUser2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SendMsgToUser2.md) | Displays a message box containing a message to the user, who is required to interact with it before continuing. |
+| Method | [SetAddinCallbackInfo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetAddinCallbackInfo.md) | Obsolete. Superseded by [ISldWorks::SetAddinCallbackInfo2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetAddinCallbackInfo2.md). |
+| Method | [SetAddinCallbackInfo2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetAddinCallbackInfo2.md) | Sets add-in callback commands. |
+| Method | [SetApplySelectionFilter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetApplySelectionFilter.md) | Sets the current state of the selection filter. |
+| Method | [SetCurrentWorkingDirectory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetCurrentWorkingDirectory.md) | Sets the current working directory to be used by SOLIDWORKS. |
+| Method | [SetMissingReferencePathName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetMissingReferencePathName.md) | Sets the missing reference file name. Use with the SOLIDWORKS event [ReferenceNotFoundNotify](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSldWorksEvents_ReferenceNotFoundNotifyEventHandler.md). |
+| Method | [SetMouseDragMode](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetMouseDragMode.md) | Sets the command-mouse mode. |
+| Method | [SetMultipleFilenamesPrompt](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetMultipleFilenamesPrompt.md) | Sets the new filenames to open in response to the ISldWorks [PromptForMultipleFileNamesNotify](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSldWorksEvents_PromptForMultipleFileNamesNotifyEventHandler.md) event. |
+| Method | [SetNewFilename](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetNewFilename.md) | Sets the name of the new SOLIDWORKS file. |
+| Method | [SetPromptFilename](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetPromptFilename.md) | Obsolete. Superseded by [ISldWorks::SetPromptFilename2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetPromptFilename2.md). |
+| Method | [SetPromptFilename2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetPromptFilename2.md) | Sets the file to open in response to a SOLIDWORKS event. |
+| Method | [SetSearchFolders](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetSearchFolders.md) | Sets the current folder search path as shown in Tools > Options > System Options > File Locations > Show folders for  > Referenced Documents. |
+| Method | [SetSelectionFilter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetSelectionFilter.md) | Sets the current selection filter values for the specified item type. |
+| Method | [SetSelectionFilters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetSelectionFilters.md) | Sets the status for multiple selection filters. |
+| Method | [SetThirdPartyPopupMenuState](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetThirdPartyPopupMenuState.md) | Sets whether to show or hide a third-party popup (shortcut) menu. |
+| Method | [SetToolbarDock](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetToolbarDock.md) | Obsolete. Superseded by [ISldWorks::SetToolbarDock2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetToolbarDock2.md). |
+| Method | [SetToolbarDock2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetToolbarDock2.md) | Sets the docking state of the toolbar. |
+| Method | [SetToolbarVisibility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetToolbarVisibility.md) | Sets whether the specified toolbar is visible. |
+| Method | [SetUserPreferenceDoubleValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceDoubleValue.md) | Sets system default user preference values. |
+| Method | [SetUserPreferenceIntegerValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceIntegerValue.md) | Sets system default user preference values. |
+| Method | [SetUserPreferenceStringListValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceStringListValue.md) | Sets the name of the DXF mapping files. |
+| Method | [SetUserPreferenceStringValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceStringValue.md) | Sets system default user preference values. |
+| Method | [SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.md) | Sets system default user preference values. |
+| Method | [ShowBatchSaveTo3DExperienceDlg](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBatchSaveTo3DExperienceDlg.md) | Opens a dialog to save files in the specified folder to 3DEXPERIENCE. |
+| Method | [ShowBubbleTooltip](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltip.md) | Displays a bubble ToolTip and flashes the specified toolbar button. |
+| Method | [ShowBubbleTooltipAt](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltipAt.md) | Obsolete. Superseded by [ISldWorks::ShowBubbleTooltipAt2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltipAt2.md). |
+| Method | [ShowBubbleTooltipAt2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltipAt2.md) | Displays a bubble ToolTip at the specified location. |
+| Method | [ShowHelp](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowHelp.md) | Displays the specified Help topic. |
+| Method | [ShowThirdPartyPopupMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowThirdPartyPopupMenu.md) | Sets where to show a third-party pop-up (shortcut) menu. |
+| Method | [ShowToolbar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowToolbar.md) | Obsolete. Superseded by [ISldWorks::ShowToolbar2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowToolbar2.md). |
+| Method | [ShowToolbar2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowToolbar2.md) | Obsolete. Not superseded. |
+| Method | [ShowUserNotification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowUserNotification.md) | Shows the specified user notification for a SOLIDWORKS add-in. |
+| Method | [SolidWorksExplorer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SolidWorksExplorer.md) | Starts SOLIDWORKS Explorer. |
+| Method | [UnInstallQuickTipGuide](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UnInstallQuickTipGuide.md) | Uninstalls your add-in's [Quick Tips](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwQuickTip.md) |
+| Method | [UnloadAddIn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UnloadAddIn.md) | Unloads the specified add-in from SOLIDWORKS. |
+| Method | [UploadToMySolidWorksSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UploadToMySolidWorksSettings.md) | Uploads the specified SOLIDWORKS Desktop settings to [SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm). |
+| Method | [VersionHistory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.md) | Gets a list of strings indicating the versions in which a model was saved. |
+
+[Top](#top)
+
+ 
+
+See Also
+
+#### Reference
+
+[ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.md)  
+[SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.md)  
+[IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.md)  
+[IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.md)  
+[IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.md)  
+[IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.md)  
+[IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.md)

@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated SOLIDWORKS / CAD output
+output/
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.sldprt
+*.sldasm
+*.slddrw
+*.step
+*.stp
+*.iges
+*.igs
+*.x_t
+*.x_b
+
+# SOLIDWORKS lock/temp files
+~$*
+
+# Local logs and scratch files
+*.log
+*.tmp
+*.bak
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

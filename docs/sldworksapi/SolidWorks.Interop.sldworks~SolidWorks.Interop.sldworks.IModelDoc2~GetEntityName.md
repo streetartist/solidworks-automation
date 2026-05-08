@@ -1,0 +1,68 @@
+# GetEntityName Method (IModelDoc2)
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetEntityName`
+
+Gets the name of the specified face, edge, or vertex.
+Gets the name of the specified face, edge, or vertex.
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Function GetEntityName( _
+   ByVal Entity As System.Object _
+) As System.String
+```
+
+```
+
+Dim instance As IModelDoc2
+Dim Entity As System.Object
+Dim value As System.String
+ 
+value = instance.GetEntityName(Entity)
+```
+
+```
+
+System.string GetEntityName( 
+   System.object Entity
+)
+```
+
+```
+
+System.String^ GetEntityName( 
+   System.Object^ Entity
+) 
+```
+
+#### Parameters
+
+*Entity*
+:   [Entity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity.md)
+
+#### Return Value
+
+Name of the entity
+
+Example
+
+[Select Component Face By Name (VBA)](Get_Component_Face_By_Name_Example_VB.htm)
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.md)  
+[IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.md)  
+[IModelDoc2::IGetEntityName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IGetEntityName.md)

@@ -1,0 +1,82 @@
+# FeatureRevolveCut2 Method (IModelDoc)
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc~FeatureRevolveCut2`
+
+Obsolete. Superseded by IModelDoc2::FetureRevolveCut2.
+Obsolete. Superseded by [IModelDoc2::FetureRevolveCut2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~FeatureRevolveCut2.md).
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Function FeatureRevolveCut2( _
+   ByVal Angle As System.Double, _
+   ByVal ReverseDir As System.Boolean, _
+   ByVal Angle2 As System.Double, _
+   ByVal RevType As System.Integer, _
+   ByVal Options As System.Integer _
+) As System.Integer
+```
+
+```
+
+Dim instance As IModelDoc
+Dim Angle As System.Double
+Dim ReverseDir As System.Boolean
+Dim Angle2 As System.Double
+Dim RevType As System.Integer
+Dim Options As System.Integer
+Dim value As System.Integer
+ 
+value = instance.FeatureRevolveCut2(Angle, ReverseDir, Angle2, RevType, Options)
+```
+
+```
+
+System.int FeatureRevolveCut2( 
+   System.double Angle,
+   System.bool ReverseDir,
+   System.double Angle2,
+   System.int RevType,
+   System.int Options
+)
+```
+
+```
+
+System.int FeatureRevolveCut2( 
+   System.double Angle,
+   System.bool ReverseDir,
+   System.double Angle2,
+   System.int RevType,
+   System.int Options
+) 
+```
+
+#### Parameters
+
+*Angle*
+
+*ReverseDir*
+
+*Angle2*
+
+*RevType*
+
+*Options*
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.md)  
+[IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.md)

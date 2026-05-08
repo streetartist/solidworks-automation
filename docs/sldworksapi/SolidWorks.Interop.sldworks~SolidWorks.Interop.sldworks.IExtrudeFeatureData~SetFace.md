@@ -1,0 +1,63 @@
+# SetFace Method (IExtrudeFeatureData)
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData~SetFace`
+
+Obsolete. Superseded by IExtrudeFeatureData2::SetEndConditionReference.
+Obsolete. Superseded by [IExtrudeFeatureData2::SetEndConditionReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~SetEndConditionReference.md).
+
+Syntax
+
+- [Visual Basic (Declaration)](#i-syntax-VB)
+- [Visual Basic (Usage)](#i-syntax-VBUsage)
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+
+Sub SetFace( _
+   ByVal Forward As System.Boolean, _
+   ByVal Face As System.Object _
+) 
+```
+
+```
+
+Dim instance As IExtrudeFeatureData
+Dim Forward As System.Boolean
+Dim Face As System.Object
+ 
+instance.SetFace(Forward, Face)
+```
+
+```
+
+void SetFace( 
+   System.bool Forward,
+   System.object Face
+)
+```
+
+```
+
+void SetFace( 
+   System.bool Forward,
+   System.Object^ Face
+) 
+```
+
+#### Parameters
+
+*Forward*
+
+*Face*
+
+Requirements
+
+**Target Platforms:** Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2
+
+See Also
+
+#### Reference
+
+[IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.md)  
+[IExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.md)

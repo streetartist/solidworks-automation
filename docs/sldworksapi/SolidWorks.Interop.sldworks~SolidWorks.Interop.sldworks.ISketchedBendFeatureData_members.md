@@ -1,0 +1,46 @@
+# ISketchedBendFeatureData Interface Members
+
+Help ID: `SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members`
+
+Allows access to a sheet metal sketched bend feature.
+The following tables list the members exposed by [ISketchedBendFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.md).
+
+Public Properties
+
+|  | Name | Description |
+| --- | --- | --- |
+| Property | [BendAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~BendAngle.md) | Gets or sets the bend angle of this sketched bend. |
+| Property | [BendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~BendRadius.md) | Gets or sets the bend radius of this sketched bend. |
+| Property | [OverrideValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~OverrideValue.md) | Gets whether the bend angle of this sketched bend is overridden by a custom bend angle. |
+| Property | [PositionType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~PositionType.md) | Gets or sets the bend position of this sketched bend. |
+| Property | [ReverseDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~ReverseDirection.md) | Gets or sets whether the direction of the sketched bend angle is reversed. |
+| Property | [UseDefaultBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseDefaultBendAllowance.md) | Gets or sets whether to use the default bend allowance for this sketched bend. |
+| Property | [UseDefaultBendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseDefaultBendRadius.md) | Gets or sets whether to use the default bend radius of this sketched bend. |
+| Property | [UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseGaugeTable.md) | Gets or sets whether to use available bend radius values from a gauge table for this sketched bend. |
+
+[Top](#top)
+
+Public Methods
+
+|  | Name | Description |
+| --- | --- | --- |
+| Method | [AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~AccessSelections.md) | Gains access to the selections that describe this sketched bend. |
+| Method | [GetCustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~GetCustomBendAllowance.md) | Gets the custom bend allowance for this sketched bend. |
+| Method | [GetFixedFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~GetFixedFace.md) | Gets the fixed face from this sketched bend. |
+| Method | [IAccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~IAccessSelections.md) | Obsolete. Superseded by [ISketchedBendFeatureData::IAccessSelections2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~IAccessSelections2.md). |
+| Method | [IAccessSelections2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~IAccessSelections2.md) | Gains access to the selections that describe this sketched bend feature. |
+| Method | [ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~ReleaseSelectionAccess.md) | Releases access to selections that describe this sketched bend. |
+| Method | [SetCustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~SetCustomBendAllowance.md) | Sets the custom bend allowance for this sketched bend. |
+| Method | [SetFixedFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~SetFixedFace.md) | Sets the fixed face of this sketched bend. |
+
+[Top](#top)
+
+ 
+
+See Also
+
+#### Reference
+
+[ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.md)  
+[SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.md)  
+[ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.md)
